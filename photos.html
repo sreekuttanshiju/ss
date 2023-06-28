@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="photostyle.css">
+    </head>    
+        <body>
+            <div class="full-img" id="fullimgbox">
+                <img src="lak1.jpg" id="fullimg" >
+                <span onclick="closeFullImg()">X</span>
+
+            </div>
+            <div class="img-gallery">
+                <img src="sree1.jpg" onclick="openFullImg(this.src)">
+                <img src="sreeb2.jpg" onclick="openFullImg(this.src)">
+                <img src="sreev2.jpg" onclick="openFullImg(this.src)">
+                <img src="sreeb3.jpg" onclick="openFullImg(this.src)">
+                <img src="lak1.jpg" onclick="openFullImg(this.src)">
+                <img src="sree1.jpg" onclick="openFullImg(this.src)">
+                <img src="sree1ed2.jpg" onclick="openFullImg(this.src)">
+
+            </div>
+        <script>
+                var fullimgbox =document.getElementById("fullimgbox");
+                var fullimg =document.getElementById("fullimg");
+
+                function openFullImg(pic){
+                    fullimgbox. style .display = "flex"
+                    fullimg.src=pic;
+                }
+                function closeFullImg(){
+                    fullimgbox.style.display="none";
+                }
+
+        </script>
+        </body>
+   
+</html>

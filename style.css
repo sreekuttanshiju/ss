@@ -55,12 +55,13 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background: url(moon) no-repeat;
+    background: url(sree1ed2.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 70px 10% 0;
+    padding: 70px 10% ;
+    cursor: pointer;
 }
 
 .home-content {
