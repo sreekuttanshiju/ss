@@ -110,10 +110,10 @@ body {
     width: 40px;
     height: 1;
     background: transparent;
-    border: 2px solid blueviolet;
+    border: 2px solid rgb(229, 225, 233);
     border-radius: 50%;
     font-size: 20px;
-    color: blueviolet;
+    color: rgb(214, 208, 218);
     text-decoration: none;
     transition: .5s ease;
     opacity: 0;
